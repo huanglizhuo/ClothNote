@@ -1,1 +1,1 @@
-include ':app','extra:GoogleDateTime'
+include ':app'

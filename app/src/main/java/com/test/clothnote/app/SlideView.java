@@ -61,9 +61,6 @@ public class SlideView extends LinearLayout {
 
     }
 
-//    public void setButtonText(CharSequence text) {
-//        ((TextView)findViewById(R.id.delete)).setText("jaj");
-//    }
 
     public void setContentView(View view) {
         mViewContent.addView(view);

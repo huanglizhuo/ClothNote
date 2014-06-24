@@ -83,21 +83,6 @@ public class ParallaxListView extends ListView {
         super.addHeaderView(v);
     }
 
-//    public void setImageId(int id) {
-//        this.mImageId = id;
-//        bmp = BitmapFactory.decodeResource(getResources(), mImageId);
-//        if (isHaveHead)
-//            this.removeHeaderView(headerView);
-//        initHead();
-//    }
-//
-//    public void setImageBitmap(Bitmap bit) {
-//        this.bmp = bit;
-//        if (isHaveHead)
-//            this.removeHeaderView(headerView);
-//        initHead();
-//    }
-
     /**
      * 初始化图片
      */
@@ -158,7 +143,7 @@ public class ParallaxListView extends ListView {
             return super.onTouchEvent(event);
         }
         switch (event.getAction() & MotionEvent.ACTION_MASK) {
-            // 手指压下屏幕
+
             case MotionEvent.ACTION_DOWN:
                 clickpoint.set(event.getX(), event.getY());
                 Log.e("test","down "+clickpoint.x+":"+clickpoint.y);
@@ -183,7 +168,7 @@ public class ParallaxListView extends ListView {
                     startPoint.set(event.getX(), event.getY());
                 }
                 break;
-            // 手指在屏幕上移动，改事件会被不断触发
+
             case MotionEvent.ACTION_MOVE:
                 isMove = true;
                 Log.e("test","Move "+isMove);

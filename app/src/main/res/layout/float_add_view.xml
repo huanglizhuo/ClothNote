@@ -6,16 +6,6 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
      >
-
-    <LinearLayout
-        android:id="@+id/float_timeLine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:divider="?android:attr/dividerHorizontal"
-        android:dividerPadding="5dp"
-        android:orientation="horizontal"
-        android:showDividers="middle" >
-    </LinearLayout>
         <EditText
             android:id="@+id/float_content"
             android:layout_width="188dp"
@@ -30,31 +20,3 @@
             android:textColor="@color/content_text_color" />
 
 </LinearLayout>
-
-<!--<LinearLayout-->
-<!--android:layout_width="0dp"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:layout_gravity="center"-->
-<!--android:layout_weight="1"-->
-<!--android:orientation="horizontal" >-->
-
-<!--<TextView-->
-    <!--android:id="@+id/float_tvTime"-->
-    <!--android:layout_width="0dp"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_gravity="center"-->
-    <!--android:layout_weight="1"-->
-    <!--android:fontFamily="sans-serif-light"-->
-    <!--android:paddingLeft="5dp"-->
-    <!--android:text="Time here!"-->
-    <!--android:textColor="@android:color/darker_gray"-->
-    <!--android:textSize="25sp" />-->
-<!--</LinearLayout>-->
-
-<!--<ImageButton-->
-<!--android:id="@+id/float_time_picker"-->
-<!--style="@android:style/Widget.Holo.Button.Borderless"-->
-<!--android:layout_width="wrap_content"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:src="@drawable/ic_time"-->
-<!--android:tint="@android:color/holo_blue_light" />-->

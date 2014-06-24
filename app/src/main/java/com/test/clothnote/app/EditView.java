@@ -1,7 +1,5 @@
 package com.test.clothnote.app;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -11,21 +9,16 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Window;
 import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;;
-import data.ClothNoteDB;
+import java.util.Date;
 import data.ClothNoteDBHelper;
 import data.Note;
-import mirko.android.datetimepicker.time.RadialPickerLayout;
-import mirko.android.datetimepicker.time.TimePickerDialog;
 
 
 public class EditView extends ActionBarActivity {
@@ -72,38 +65,6 @@ public class EditView extends ActionBarActivity {
                 remindswitch.setChecked(true);
             }
         }
-
-        final TimePickerDialog timePickerDialog24h = TimePickerDialog.newInstance(new TimePickerDialog.OnTimeSetListener() {
-
-            @Override
-            public void onTimeSet(RadialPickerLayout view, int hourOfDay,
-                                  int minute) {
-
-                remind.setText(
-                        new StringBuilder().append(pad(hourOfDay))
-                                .append(":").append(pad(minute)));
-
-                remind.setTextColor(getResources().getColor(android.R.color.holo_blue_light));
-            }
-        }, mCalendar.get(Calendar.HOUR_OF_DAY), mCalendar.get(Calendar.MINUTE), true);
-
-        remind.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                timePickerDialog24h.show(getFragmentManager(),"timePicker");
-                String a[] = remind.getText().toString().split(":");
-                Log.e("test",mCalendar.getTimeInMillis()+"");
-            }
-        });
-
-//        remindswitch.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (remindswitch.isChecked()){
-//
-//                }
-//            }
-//        });
 
     }
 
@@ -181,10 +142,6 @@ public class EditView extends ActionBarActivity {
         mNote.setUpdatedtime(new StringBuilder().append(pad(hourOfDay))
                 .append(":").append(pad(minute)).toString());
         mNote.setRemindtime(remind.getText().toString());
-//
-//        if(remindswitch.isChecked()){
-//            mNote.setAttributes("on");
-//        }
 
         if (isnew && (!mNote.getContent().equals(""))){
             SimpleDateFormat formatter = new SimpleDateFormat ("yyyy.MM.dd.hh:mm");

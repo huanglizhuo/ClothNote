@@ -16,7 +16,6 @@
         android:dividerHeight="0dp"
         android:fadingEdgeLength="0dp"
         android:padding="0dp"
-        android:background="@drawable/background"
         imglistview:headimage="@drawable/top_img" />
 
 </RelativeLayout>

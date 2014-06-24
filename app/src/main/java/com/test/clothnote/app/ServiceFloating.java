@@ -26,6 +26,9 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import data.ClothNoteDB;
 import data.ClothNoteDBHelper;
 import data.Note;
@@ -150,8 +153,11 @@ public class ServiceFloating extends Service{
                 public void onDismiss() {
                     dbHelper = new ClothNoteDBHelper(context);
                     Note mNote = new Note();
+                    SimpleDateFormat formatter = new SimpleDateFormat ("yyyy.MM.dd.hh:mm");
+                    Date curDate = new Date(System.currentTimeMillis());//获取当前时间
+                    String str =  formatter.format(curDate);
+                    mNote.setCreatetime(str);
                     mNote.setContent(((TextView) popupView.findViewById(R.id.float_content)).getText().toString());
-//                    mNote.setRemindtime(((TextView) popupView.findViewById(R.id.float_tvTime)).getText().toString());
                     if(mNote.getContent().isEmpty()){
                         Toast.makeText(context,"无内容",Toast.LENGTH_LONG).show();
                     }else {
