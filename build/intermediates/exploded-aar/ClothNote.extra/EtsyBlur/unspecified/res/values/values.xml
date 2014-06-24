@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/huanglizhuo/AndroidStudioProjects/ClothNote/extra/EtsyBlur/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="bg_glass">#88ffffff</color>
+    <!-- From: file:/home/huanglizhuo/AndroidStudioProjects/ClothNote/extra/EtsyBlur/src/main/res/values/ids.xml -->
+    <eat-comment />
+
+    <item name="blur_view" type="id"/>
+    <item name="container" type="id"/>
+    <!-- From: file:/home/huanglizhuo/AndroidStudioProjects/ClothNote/extra/EtsyBlur/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="DialogSlideAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
+    </style>
+
+</resources>

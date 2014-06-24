@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/huanglizhuo/AndroidStudioProjects/ClothNote/extra/CircularProgressButton/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="blue">@android:color/holo_blue_dark</color>
+    <color name="green">@android:color/holo_green_light</color>
+    <color name="grey">#ffdedede</color>
+    <color name="red">@android:color/holo_red_light</color>
+    <color name="white">@android:color/white</color>
+    <!-- From: file:/home/huanglizhuo/AndroidStudioProjects/ClothNote/extra/CircularProgressButton/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <declare-styleable name="CircularProgressButton">
+        <attr name="textComplete" format="string" />
+        <attr name="textIdle" format="string" />
+        <attr name="textError" format="string" />
+        <attr name="colorProgress" format="color" />
+        <attr name="colorIndicator" format="color" />
+        <attr name="colorIndicatorBackground" format="color" />
+        <attr name="colorComplete" format="color" />
+        <attr name="colorError" format="color" />
+        <attr name="colorIdle" format="color" />
+        <attr name="iconError" format="reference" />
+        <attr name="iconComplete" format="reference" />
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/home/huanglizhuo/AndroidStudioProjects/ClothNote/extra/CircularProgressButton/src/main/res/values/dimen.xml -->
+    <eat-comment />
+
+    <dimen name="stroke_width">4dp</dimen>
+    <!-- From: file:/home/huanglizhuo/AndroidStudioProjects/ClothNote/extra/CircularProgressButton/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">library</string>
+
+</resources>

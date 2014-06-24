@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/build/intermediates/pre-dexed/debug/classes-c9f4ef4211c61dc9de88aad8434cd4aa9773ac9c.jar"
+        jar="/home/huanglizhuo/AndroidStudioProjects/ClothNote/build/intermediates/exploded-aar/ClothNote.extra/EtsyBlur/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="19895d63a8e49377e8b63196d562cbcd65b63e67"/>
+    <item
+        dex="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/build/intermediates/pre-dexed/debug/classes-8596b128ed5dd0a4b983df1130e9ce012df3dab6.jar"
+        jar="/home/huanglizhuo/AndroidStudioProjects/ClothNote/build/intermediates/exploded-aar/ClothNote.extra/GoogleDateTime/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f77fb97cbd30f6011723d73e4995fafd147713a1"/>
+    <item
+        dex="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/build/intermediates/pre-dexed/debug/classes-f0b3b50881e1e0c2a6be7922765e54e6590c3a7c.jar"
+        jar="/home/huanglizhuo/AndroidStudioProjects/ClothNote/build/intermediates/exploded-aar/ClothNote.extra/CircularProgressButton/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2b7d0854da64275c266dad215bb72cf9637819a3"/>
+    <item
+        dex="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/build/intermediates/pre-dexed/debug/support-v13-13.0.0-6dadf827b6a05497f17a6130eb28042953a90507.jar"
+        jar="/home/huanglizhuo/Tools/android-studio/sdk/extras/android/m2repository/com/android/support/support-v13/13.0.0/support-v13-13.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3cbe273d384ea56fb535c2d8405a9b64c21fcfb3"/>
+    <item
+        dex="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-424f47cbc7e4ed01d467da0e3f9d4348ae2df428.jar"
+        jar="/home/huanglizhuo/Tools/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/build/intermediates/pre-dexed/debug/Msc-b2582a20ffbe822cb4abf3cfe8850a49891f4017.jar"
+        jar="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/libs/Msc.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0e12f2fe518229364615ac08b0aec6796c192093"/>
+    <item
+        dex="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/build/intermediates/pre-dexed/debug/classes-e0d09212c499ae1366d71d744fd100cef55aa7cc.jar"
+        jar="/home/huanglizhuo/AndroidStudioProjects/ClothNote/build/intermediates/exploded-aar/ClothNote.extra/fade/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="837281b758fc5f12f203dbfa0feaab2aa82850eb"/>
+    <item
+        dex="/home/huanglizhuo/AndroidStudioProjects/ClothNote/app/build/intermediates/pre-dexed/debug/classes-d4e728d95c850ccb6aeed2f5c2e754d6c862d798.jar"
+        jar="/home/huanglizhuo/AndroidStudioProjects/ClothNote/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>

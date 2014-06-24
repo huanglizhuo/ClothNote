@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_mediumAnimTime"
+    android:fromYDelta="0%"
+    android:toYDelta="100%p" /><!-- From: file:/home/huanglizhuo/AndroidStudioProjects/ClothNote/extra/EtsyBlur/src/main/res/anim/slide_down_dialog.xml -->
