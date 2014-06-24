@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="heading_space_bottom">8dp</dimen>
+    <dimen name="heading_space_top">16dp</dimen>
+
+    <!-- Custome EditText -->
+    <dimen name="edit_padding_left">15dp</dimen>
+    <dimen name="edit_padding_right">15dp</dimen>
+    <dimen name="edit_padding_top">12dp</dimen>
+    <dimen name="edit_padding_bottom">5dp</dimen>
+    <!-- Custome EditText -->
+
+    <dimen name="divider_line_height">1px</dimen>
+    <dimen name="setting_panel_height">55dp</dimen>
+    <dimen name="setting_image">25dp</dimen>
+    <dimen name="arrow_size">20dp</dimen>
+
+</resources>

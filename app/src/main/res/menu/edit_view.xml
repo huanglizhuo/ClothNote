@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.test.clothnote.app.EditView" >
+
+    <item android:id="@+id/action_cancel"
+        android:title="取消"
+        android:icon="@drawable/ic_undo"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_save"
+        android:title="取消"
+        android:icon="@drawable/ic_save"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

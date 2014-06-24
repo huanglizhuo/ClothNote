@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClothNote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_float_label_view">FloatLabelView</string>
+    <string name="action_toggle_theme">Toggle Theme</string>
+    <string name="example_label">Example Label</string>
+    <string name="title">内容</string>
+    <string name="prefilled">Prefilled</string>
+    <string name="custom_layout">Custom Layout</string>
+    <string name="custom_hint_color">Custom Hint Color</string>
+    <string name="default_settings">Default Settings</string>
+    <string name="custom_animations">Custom Animations</string>
+    <string name="custom_floatlabel_color">Custom FloatLabel Color</string>
+    <string name="input_type_password">Input type Password</string>
+    <string name="title_activity_edit_view">EditView</string>
+    <string name="overflow">Menu Overflow</string>
+    <string name="color_stripe">Color Stripe</string>
+    <string name="desc">Description</string>
+    <string name="title_activity_date_time_picker">DateTimePicker</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="title_activity_reminder_start">ReminderStart</string>
+
+</resources>
