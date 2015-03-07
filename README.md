@@ -2,7 +2,7 @@
 
 here is some pic
 
-![main](pic/main.png)
+<img src="pic/main.png" alt="main" width="300px" />
 ![del](pic/del.png)
 ![edit](pic/edit.png)
 ![floting](pic/floting.png)
